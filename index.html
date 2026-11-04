@@ -104,8 +104,8 @@ h2{font-size:clamp(32px,4vw,52px);letter-spacing:-.055em;line-height:1.05;margin
 .contact-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .contact-link{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:10px 14px;min-height:44px;font-size:12px;color:#e1e7ea;overflow-wrap:anywhere}
 .contact-link strong{color:var(--accent)}
-.qr-panel{background:#fff;color:#152019;border-radius:20px;padding:24px;text-align:center;max-width:360px;width:100%;margin:auto}
-.qr-panel img{display:block;width:100%;max-width:280px;height:auto;aspect-ratio:1;object-fit:contain;margin:0 auto 16px}
+.qr-panel{background:#fff;color:#152019;border-radius:20px;padding:28px 24px;text-align:center;max-width:360px;width:100%;margin:auto}
+.qr-panel img{display:block;width:min(100%,250px);height:auto;aspect-ratio:1;object-fit:contain;margin:0 auto 18px;border-radius:8px}
 .qr-panel h3{font-size:17px;margin:0 0 6px}
 .qr-panel p{color:#425047;font-size:13px;margin:0 0 12px}
 .qr-id{font-size:12px;font-weight:700;color:#243127;overflow-wrap:anywhere}
@@ -398,7 +398,6 @@ footer strong{color:#e8ecee}
     <div class="qr-id" aria-label="WeChat ID">wxid_bv54nzj8milm12</div>
     <button class="copy-button" id="copyWechat" type="button" data-i18n="copy_button">Copy WeChat ID</button>
     <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
-    <p data-i18n="qr_russian">Сканируйте, чтобы добавить нас в WeChat для консультации</p>
   </div>
 
 </div>
